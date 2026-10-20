@@ -1,4 +1,9 @@
-exercicios que eu faço pra aprender alguma coisa, tipo, python, c, html e tals. 
-Eu tento identificar de onde são esses exercícios mas ainda pode acontecer de eles
-não estarem classificados pq eu peguei de algum lugar aleatório ou vi em algum lugar 
-não específico e tentei fazer. 
+print('Progarma para gerar uma sequência')
+m = int(input('\nDigite o valor inicial da sequencia de M: '))
+n = int(input('\ndigite o valor final da sequencia N: '))
+print('UFC - Programação \nPrograma para gerar sequencia \nSequencia:')
+
+for i in range((n-m)+1):
+    print(m, end=" ")
+    m+=1
+print(f'\nValor de M = {m-n} \nValor de N = {n} \nFim de Trabalho')
